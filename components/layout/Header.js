@@ -1,5 +1,7 @@
 import React from "react";
 import Search from "../ui/Search";
+import Navigation from "./Navigation";
+
 
 const Header = () => {
   return (
@@ -9,7 +11,7 @@ const Header = () => {
           <p>P</p>
           <Search />
 
-          {/* Nav here */}
+          <Navigation />
         </div>
 
         <div>{/* Admin menu here */}</div>

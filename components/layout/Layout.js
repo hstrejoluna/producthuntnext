@@ -6,10 +6,7 @@ const Layout = (props) => {
   return (
     <>
       <Header />
-      <nav>
-        <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
-      </nav>
+   
       <main>{props.children}</main>
     </>
   );
