@@ -1,7 +1,7 @@
 import React from "react";
 import Search from "../ui/Search";
 import Navigation from "./Navigation";
-
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -14,7 +14,13 @@ const Header = () => {
           <Navigation />
         </div>
 
-        <div>{/* Admin menu here */}</div>
+        <div>
+          <p>Hello: Nicole</p>
+          <button type="button">Logout</button>
+
+          <Link href="/">Login</Link>
+          <Link href="/">Create Account</Link>
+        </div>
       </div>
     </header>
   );
