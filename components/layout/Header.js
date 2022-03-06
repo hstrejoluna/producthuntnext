@@ -1,4 +1,5 @@
 import React from "react";
+import Search from "../ui/Search";
 
 const Header = () => {
   return (
@@ -6,7 +7,7 @@ const Header = () => {
       <div>
         <div>
           <p>P</p>
-          {/* Search bar Here */}
+          <Search />
 
           {/* Nav here */}
         </div>
